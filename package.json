@@ -14,7 +14,10 @@
     "build": "node build.js",
     "test": "vitest"
   },
-  "keywords": [],
+  "keywords": [
+    "null",
+    "undefined"
+  ],
   "author": "Minsu Kang (BetaMan) <skymin0417@gmail.com>",
   "repository": {
     "type": "git",
