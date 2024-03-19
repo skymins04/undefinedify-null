@@ -1,0 +1,1 @@
+function t(e){if(e!=null)return e}function n(e){if(e!=null)return Array.isArray(e)?e.map(n):typeof e=="object"?Object.fromEntries(Object.entries(e).map(([i,u])=>[i,n(u)])):e}export{t as undefinedifyNull,n as undefinedifyNullProperties};
