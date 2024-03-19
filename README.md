@@ -1,3 +1,3 @@
 # undefinedify-null
 
-null 타입을 undefined 타입으로 치환해주는 라이브러리.
+A library that replaces `null` type to `undefined` type.

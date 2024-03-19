@@ -1,12 +1,38 @@
 {
   "name": "undefinedify-null",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "A library that replaces `null` type to `undefined` type.",
+  "module": "dist/index.esm.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "eslint",
+    "build": "node build.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Minsu Kang (BetaMan) <skymin0417@gmail.com>",
+  "repository": {
+    "type": "git",
+    "directory": "git+https://github.com/skymins04/undefinedify-null.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skymins04/undefinedify-null/issues"
+  },
+  "homepage": "https://github.com/skymins04/undefinedify-null#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.3.1",
+    "@typescript-eslint/parser": "^7.3.1",
+    "esbuild": "^0.20.2",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-unused-imports": "^3.1.0",
+    "npm-dts": "^1.3.12",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.2"
+  }
 }
